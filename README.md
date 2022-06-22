@@ -24,7 +24,7 @@ This board is designed to connect addressable LEDs/Neopixel strips and handle th
 - ESP32-WROOM-32E
 - 5,5mm / 2,1mm barrel jack connector for input voltage
 - 2 output lines for LED data and LED clock or relais
-- level shifter for all 2 outputs (3.3V -> 5V )
+- level shifter for both outputs (3.3V -> 5V )
 - resistor for data line
 - support for LED strips with clock signal
 - connector to flash firmware with CP2104 (3.3V, TX, RX, GND, IO0, GND)
@@ -81,5 +81,24 @@ Conn_01x07_Female|J5|PinHeader_1x07_P2.54mm_Vertical|
 - Digital microphone (SCK - IO14, WS - IO15, SD - IO32)
 - Analog microphone (ADC - SENSOR_VP)
 - Button input - IO26
+
+## Addon shields
+The following addon shields are available
+
+### Microphone input
+<img src="./Images/Addon_Microphone.jpeg" width="50%" height="50%">
+
+- connector for digital and analog microphones 
+- INMP401 
+- MAX4466 
+- MAX9814 
+
+### Prototype area
+<img src="./Images/Addon_Prototype.jpeg" width="50%" height="50%">
+
+### Cube builder
+<img src="./Images/Addon_Cube.jpeg" width="100%" height="100%">
+
+- 6 JST-PH connectors to add LED matrix panels to build a cube
 
 ## Case
