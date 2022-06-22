@@ -97,7 +97,7 @@ The following addon shields are available
 <img src="./Images/Addon_Prototype.jpg" width="50%" height="50%">
 
 ### Cube builder
-<img src="./Images/Addon_Cube.jpg" width="100%" height="100%">
+<img src="./Images/Addon_Cube.jpg" width="50%" height="50%">
 
 - 6 JST-PH connectors to add LED matrix panels to build a cube
 
