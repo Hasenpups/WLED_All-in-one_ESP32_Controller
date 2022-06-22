@@ -58,7 +58,7 @@ Conn_01x07_Female|J5|PinHeader_1x07_P2.54mm_Vertical|
 - 1 x Barrel Jack Adapter DS-210 (5,5mm / 2,1mm) (https://www.ebay.de/itm/182379482999)
 
 ## Wiring diagram
-- https://github.com/Hasenpups/WLED_All-in-one_Controller/blob/main/WLED_All-in-one_Controller.pdf)
+- https://github.com/Hasenpups/WLED_All-in-one_Controller/blob/main/WLED_All-in-one_Controller.pdf
 
 ## Software
 - WLED: https://github.com/Aircoookie/WLED
@@ -94,10 +94,10 @@ The following addon shields are available
 - MAX9814 
 
 ### Prototype area
-<img src="./Images/Addon_Prototype.jpeg" width="50%" height="50%">
+<img src="./Images/Addon_Prototype.jpg" width="50%" height="50%">
 
 ### Cube builder
-<img src="./Images/Addon_Cube.jpeg" width="100%" height="100%">
+<img src="./Images/Addon_Cube.jpg" width="50%" height="50%">
 
 - 6 JST-PH connectors to add LED matrix panels to build a cube
 
