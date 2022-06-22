@@ -58,7 +58,7 @@ Conn_01x07_Female|J5|PinHeader_1x07_P2.54mm_Vertical|
 - 1 x Barrel Jack Adapter DS-210 (5,5mm / 2,1mm) (https://www.ebay.de/itm/182379482999)
 
 ## Wiring diagram
-- https://github.com/Hasenpups/WLED_All-in-one_Controller/blob/main/WLED_All-in-one_Controller.pdf
+- https://github.com/Hasenpups/WLED_All-in-one_ESP32_Controller/blob/main/WLED_All-in-one_ESP32_Controller.pdf
 
 ## Software
 - WLED: https://github.com/Aircoookie/WLED
