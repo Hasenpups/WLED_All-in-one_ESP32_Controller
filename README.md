@@ -21,7 +21,7 @@ This board is designed to connect addressable LEDs/Neopixel strips and handle th
 <img src="./Images/WLED_All-in-one_ESP32_Controller.png" width="50%" height="50%">
 
 ## Features
-- ESP-WROOM-02 (ESP8266)
+- ESP32-WROOM-32E
 - 5,5mm / 2,1mm barrel jack connector for input voltage
 - 2 output lines for LED data and LED clock or relais
 - level shifter for all 2 outputs (3.3V -> 5V )
@@ -29,8 +29,8 @@ This board is designed to connect addressable LEDs/Neopixel strips and handle th
 - support for LED strips with clock signal
 - connector to flash firmware with CP2104 (3.3V, TX, RX, GND, IO0, GND)
 - :heavy_exclamation_mark: Maximum 5A :heavy_exclamation_mark:
-- connectors for digital input (3.3V, GND, IO4) (IR remote control for example)
-- connector for button (GND, IO5)
+- connector for digital input (3.3V, GND, IO4) (IR remote control for example)
+- connector for addon shields (GND, IO32, IO15, IO14, 3.3V, GND, SENSOR_VP)
 
 ## BOM
 - 1 x WLED All-in-one ESP32 Controller presoldered from https://jlcpcb.com/
@@ -54,15 +54,15 @@ Conn_01x03_Female|J4|PinHeader_1x03_P2.54mm_Vertical|
 Conn_01x07_Female|J1|PinHeader_1x07_P2.54mm_Vertical|
 Conn_01x07_Female|J5|PinHeader_1x07_P2.54mm_Vertical|
 
-
 - 2 x 2-pin screw terminal (https://www.amazon.de/gp/product/B08JB6SSCJ)
 - 1 x Barrel Jack Adapter DS-210 (5,5mm / 2,1mm) (https://www.ebay.de/itm/182379482999)
 
 ## Wiring diagram
-- https://github.com/Hasenpups/WLED_All-in-one_Controller/blob/main/WLED_All-in-one_Controller.pdf
+- https://github.com/Hasenpups/WLED_All-in-one_Controller/blob/main/WLED_All-in-one_Controller.pdf)
 
 ## Software
-- WLED: https://github.com/Aircoookie/WLED/releases
+- WLED: https://github.com/Aircoookie/WLED
+- Sound reactive WLED: https://github.com/atuline/WLED 
 
 ## How to flash software
 - Connect IO0 to GND
@@ -75,15 +75,11 @@ Conn_01x07_Female|J5|PinHeader_1x07_P2.54mm_Vertical|
 - Wait until finished
 
 ## WLED configuration
-<img src="./Images/IMG_8772.jpeg" width="50%" height="50%">
-
-- OUT1 - IO2  
-- OUT2 - IO14  
-- digital input 1 (BUTTON) - IO5  
-- digital input 2 (IR) - IO4  
+- OUT1 - IO16  
+- OUT2 - IO17  
+- IR receiver - IO18
+- Digital microphone (SCK - IO14, WS - IO15, SD - IO32)
+- Analog microphone (ADC - SENSOR_VP)
+- Button input - IO26
 
 ## Case
-<img src="./Images/IMG_8765.jpeg" width="50%" height="50%">
-<img src="./Images/IMG_8766.jpeg" width="50%" height="50%">
-
-https://www.prusaprinters.org/prints/138472-wled-all-in-one-controller-v2-housing
