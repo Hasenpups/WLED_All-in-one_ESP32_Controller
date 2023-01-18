@@ -102,3 +102,4 @@ The following addon shields are available
 - 6 JST-PH connectors to add LED matrix panels to build a cube
 
 ## Case
+https://www.printables.com/model/373138-wled-all-in-one-esp32-controller-housing
