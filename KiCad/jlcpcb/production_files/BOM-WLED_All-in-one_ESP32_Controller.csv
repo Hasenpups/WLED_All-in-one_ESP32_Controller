@@ -14,6 +14,6 @@ Conn_01x03_Female,J4,PinHeader_1x03_P2.54mm_Vertical,
 Conn_01x07_Female,J1,PinHeader_1x07_P2.54mm_Vertical,
 10K,R3,R_0603_1608Metric,
 Conn_01x07_Female,J5,PinHeader_1x07_P2.54mm_Vertical,
-ESP32-WROOM-32,U2,ESP32-WROOM-32,
+ESP32-WROOM-32,U2,ESP32-WROOM-32,C529582
 1000µF,C1,CP_Elec_10x10,
 100nF,C5,C_0603_1608Metric,
